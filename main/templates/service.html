@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<head>
+    <title>cdvxcdvvdx x v</title>
+</head>
+<body>
+    <div class="service-control">
+        {% for services in service %}
+            <h1 class="name">{{ services.service_name }}</h1>
+            <h2 class="price">{{ services.service_price }}</h2>
+            <h3 class="options">{{ services.options }}</h3>
+        {% endfor %}
+    </div>
+</body>

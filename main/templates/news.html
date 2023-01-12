@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<head>
+    <title>News and Updates</title>
+</head>
+<body>
+    <div class="news-control">
+        {% for new in news %}
+            <h1>{{ new.body }}</h1>
+        {% endfor %}
+    </div>
+    <div class="update-control">
+        {% for updatee in updates%}
+            <h1>{{ updatee.update }}</h1>
+        {% endfor %}
+    </div>
+</body>
